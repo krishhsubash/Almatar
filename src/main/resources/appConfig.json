@@ -1,0 +1,60 @@
+{
+  "browser": "Chrome",
+  "mscrm": {
+    "environmentInstance": "",
+    "onlineCrmUrl": "https://dev-qa0.crm.dynamics.com/",
+    "clientId": "",
+    "clientSecret": "",
+    "captureScreenshotOnSuccess": false,
+    "salesRepUsername": "subkrish@northwindli.onmicrosoft.com",
+    "salesRepPassword": "",
+    "salesRepMfaSecretKey": "",
+    "supportRepUsername": "",
+    "supportRepPassword": "",
+    "supportRepMfaSecretKey": "",
+    "emailConfiguration": {
+      "smtpServer": "",
+      "smtpPort": 587,
+      "smtpUsername": "",
+      "smtpPassword": "",
+      "popServer": "",
+      "popPort": 995,
+      "popUsername": "",
+      "popPassword": ""
+    }
+  },
+  "sfdc": {
+    "username": "atest1@linkedin.com.1337",
+    "password": "",
+    "sfdcClientId": "",
+    "sfdcClientSecret": "",
+    "sfdcUrl": "https://test.salesforce.com"
+  },
+  "bullet": {
+    "bulletUrl": "https://bullet-stg.linkedin.biz/",
+    "username":  "svasanth@linkedin.biz",
+    "password": "",
+    "apiConfig": {
+      "clientId": "",
+      "clientSecret": "",
+      "tenantId": "",
+      "subscriptionId": "",
+      "baseUri": "https://bullet-stg.linkedin.biz/api/"
+    }
+  },
+  "roster": {
+    "rosterUrl": "https://hubble.stg.linkedin.com/roster/login",
+    "username": "msoni",
+    "password": "",
+    "token": ""
+  },
+  "salesloft": {
+    "saleslofturl": "https://app.salesloft.com/app/dashboard",
+    "username": "okta"
+  },
+  "almatar": {
+    "almatarUrl": "https://almatar.com/",
+    "username": "",
+    "password": ""
+  }
+}
