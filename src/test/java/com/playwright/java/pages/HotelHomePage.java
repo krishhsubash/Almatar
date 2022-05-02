@@ -40,7 +40,7 @@ public class HotelHomePage extends WebClient {
     }
 
     public HotelHomePage ClickTabHotelHome(String homeTab) {
-        popUp.click(String.format(ElementReference.Almatar.HOTELS_TAB,homeTab));
+        popUp.click(String.format(ElementReference.Almatar.HOTELS_TAB, homeTab));
         return this;
     }
 

@@ -5,6 +5,7 @@ Feature: Almatar Ui Workflow
 
     @almatar
     Scenario:
+<<<<<<< HEAD
       When I select "English" language option in Home Page
       When I click on "hotels" option in Home Page
       And I enter Going To as "Sheik Ali Dahab Resort" in Home Page

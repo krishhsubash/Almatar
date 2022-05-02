@@ -86,10 +86,7 @@ public class HomeSteps {
     if (pageName.equalsIgnoreCase(Constants.Application.BULLET.toString())) {
       _driverManager.createNewPage(Constants.Application.BULLET.toString());
       _homePage.launchBulletPage(_appConfig.getReader().getBullet().getBulletUrl());
-    } else if (pageName.equalsIgnoreCase(Constants.Application.SALESLOFT.toString())) {
-      _driverManager.createNewPage(Constants.Application.SALESLOFT.toString());
-      _homePage.launchHomePage(_appConfig.getReader().getSalesloft().getSaleslofturl());
-    } else if (pageName.equalsIgnoreCase(Constants.Application.SFDC.toString())) {
+    }  else if (pageName.equalsIgnoreCase(Constants.Application.SFDC.toString())) {
       _driverManager.createNewPage(Constants.Application.SFDC.toString());
       _homePage.launchHomePage(_appConfig.getReader().getSfdc().getSfdcUrl());
     } else if (pageName.equalsIgnoreCase(Constants.Application.MSCRM.toString())) {
@@ -129,7 +126,6 @@ public class HomeSteps {
   public void iClickOnLinkInHomePage(String verificationOption) {
     _homePage.clickDifferentVerificationOption(verificationOption);
   }
-
   @And("I click on {string} link in Bullet Home Page")
   public void iClickOnLinkInBulletHomePage(String buttonHome) {
     _homePage.clickLinkBulletHome(buttonHome);

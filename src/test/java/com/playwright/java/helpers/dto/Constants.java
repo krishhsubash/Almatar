@@ -111,7 +111,6 @@ public final class Constants {
     SALESLOFT("Salesloft"),
     ALMATAR("Almatar");
 
-
     final String _value;
 
     Application(String value) {

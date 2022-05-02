@@ -29,7 +29,6 @@ public class HotelHomeSteps {
     @Then("I verify user is navigated to Hotel Home Page")
     public void iVerifyUserIsNavigatedToHotelHomePage() {
         Assert.isTrue(hotelHomePage.verifyUserNavigatedHotelHome(),"User is not navigated to hotel home Page");
-
     }
 
     @When("I click on {string} tab in Hotel Home Page")

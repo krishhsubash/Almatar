@@ -25,7 +25,6 @@ public class PaymentPage extends WebClient {
     }
 
     public PaymentPage EnterCreditCardNumber() {
-
         String creditCard = _fakerLib.getFaker().number().digits(16);
         popUp.fill(ElementReference.Almatar.PHONE_NUMBER,creditCard);
         return this;

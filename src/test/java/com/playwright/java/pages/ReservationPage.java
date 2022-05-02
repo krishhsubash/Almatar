@@ -28,7 +28,6 @@ public class ReservationPage extends WebClient {
     }
 
     public ReservationPage EnterFirstName() {
-
         popUp.click(ElementReference.Almatar.FIRST_NAME);
         popUp.fill(ElementReference.Almatar.FIRST_NAME,_fakerLib.getFaker().lorem().sentence(1));
         return this;

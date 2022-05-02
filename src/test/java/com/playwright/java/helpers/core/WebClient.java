@@ -21,7 +21,6 @@ public class WebClient extends AbstractBasePage {
   public void clickElement(String locator, String element) {
     _driverManager.getPage().click(locator);
   }
-
   public int countWebElements(String locator) {
     _driverManager.getPage()
             .waitForSelector(locator,new Page.WaitForSelectorOptions().setTimeout(Constants.CommonConstants.TIMEOUT));
