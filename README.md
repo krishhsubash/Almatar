@@ -8,7 +8,8 @@ TODO: Give a short introduction of your project. Let this section explain the ob
     Project is built in java 11, so default java config has to be set as java 11
     Maven
 3.	Latest releases
-4.	API references
+4.	project is a Cucumber Project
+5.	Test cases are available under the Features folder
 
 # Build and Test
     1) run as a Maven project
