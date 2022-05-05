@@ -15,7 +15,7 @@ TODO: Give a short introduction of your project. Let this section explain the ob
         provide goal as mvn clean test verify
 
 
-    2) To run cucumber test with specific scenario with tag: mvn clean test -Dcucumber.filter.tags="@smoke"
+    2) To run cucumber test with specific scenario with tag: mvn clean test -Dcucumber.filter.tags="@almatar"
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
